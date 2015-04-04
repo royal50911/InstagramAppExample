@@ -1,7 +1,7 @@
 {
   "name": "mywebapp",
   "version": "0.0.1",
-  "author": "Chu Shao",
+  "author": "Hien Hoang",
   "scripts": {
     "start": "node app.js"
   },
@@ -15,6 +15,10 @@
     "passport-twitter": "*",
     "dotenv": "*",
     "instagram-node-lib": "*"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/royal50911/InstagramAppExample"
   },
   "engines": {
     "node": "0.10.x"
