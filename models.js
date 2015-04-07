@@ -8,5 +8,3 @@ var ImgSchema = new Mongoose.Schema({
 });
 
 exports.Img = Mongoose.model('Img', ImgSchema);
-
-

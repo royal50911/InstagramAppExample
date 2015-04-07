@@ -29,7 +29,6 @@ exports.saveFavorites = function(req, res) {
 		"hashtag": req.body.hashtag,
 		"image": req.body.url
 	});
-
 	newImage.save(callbackFunction);
 
 	function callbackFunction(err) {
